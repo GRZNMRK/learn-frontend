@@ -1,11 +1,13 @@
 body {
-    background-color: beige;
+    background-color: #f5f5dc;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
+h1,
+h2 {
     margin-top: 0;
     text-align: center;
-    color: rgb(78, 60, 128);
+    color: #4e3c80;
     font-size: 40px;
     font-variant: small-caps; /*indent untuk membuat huruf pertama sebuah kata menjadi besar dan huruf selanjutnya kecil*/
 }
@@ -15,4 +17,21 @@ p {
     text-align: justify;
     line-height: 150%;
     font-size: 20px;
+}
+
+ul a {
+    color: rgb(86, 226, 43);
+    text-decoration: none;
+}
+
+ol a {
+    color: #bdb76b;
+}
+
+.p1 {
+    color: #9932cc; /*darkorchid*/
+}
+
+.p2 {
+    color: #00bfff;
 }
