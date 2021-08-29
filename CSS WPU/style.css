@@ -19,19 +19,34 @@ p {
     font-size: 20px;
 }
 
-ul a {
-    color: rgb(86, 226, 43);
-    text-decoration: none;
+.hello:link {
+    color: rgb(125, 240, 154);
 }
 
-ol a {
-    color: #bdb76b;
+.hello:hover {
+    font-size: larger;
 }
 
-.p1 {
-    color: #9932cc; /*darkorchid*/
+.hello:active {
+    font-style: italic;
 }
 
-.p2 {
-    color: #00bfff;
+.hello:visited {
+    color: deeppink;
+}
+
+li:first-child a {
+    color: rgb(171, 235, 52);
+}
+
+li:last-child a {
+    color: rgb(171, 235, 52);
+}
+
+li:nth-child(even) a {
+    color: rgb(171, 235, 52);
+}
+
+p:first-of-type {
+    color: dodgerblue; /*mentarget p yang ditemukan pertama kali dari atas*/
 }
