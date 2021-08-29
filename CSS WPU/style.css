@@ -1,10 +1,18 @@
-h1 {
-  text-align: center;
-  color: rgb(78, 60, 128);
-  font-size: 40px;
+body {
+    background-color: beige;
 }
+
+h1 {
+    margin-top: 0;
+    text-align: center;
+    color: rgb(78, 60, 128);
+    font-size: 40px;
+    font-variant: small-caps; /*indent untuk membuat huruf pertama sebuah kata menjadi besar dan huruf selanjutnya kecil*/
+}
+
 p {
-  text-align: justify;
-  line-height: 150%;
-  font-size: 20px;
+    text-indent: 40px; /*indent untuk membuat teks menjorok*/
+    text-align: justify;
+    line-height: 150%;
+    font-size: 20px;
 }
