@@ -1,17 +1,27 @@
-div {
-    width: 300px;
-    margin: 10px auto;
-    box-sizing: border-box;
+.container {
+    width: 800px;
+    margin: auto;
+    border: 1px solid lightslategray;
+    padding: 5px;
 }
 
-.satu {
-    background-color: cadetblue;
-    padding: 10px;
-    border: 5px solid red;
+.kiri {
+    width: 150px;
+    height: 500px;
+    background-color: lightpink;
+    float: left;
 }
 
-.dua {
-    background-color: cornflowerblue;
-    padding: 30px;
-    border: 10px dashed lightsalmon;
+.tengah {
+    width: 500px;
+    height: 500px;
+    background-color: lightsalmon;
+    float: left;
+}
+
+.kanan {
+    width: 150px;
+    height: 500px;
+    background-color: lightsteelblue;
+    float: left;
 }
